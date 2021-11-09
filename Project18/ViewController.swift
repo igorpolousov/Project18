@@ -1,7 +1,7 @@
 //
 //  ViewController.swift
 //  Project18
-//
+//  Day 64-65
 //  Created by Igor Polousov on 09.11.2021.
 //
 
@@ -11,7 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        for i in 1...100 {
+            print("Got number \(i)")
+        }
+        
     }
 
 
